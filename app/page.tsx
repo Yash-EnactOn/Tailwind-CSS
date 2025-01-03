@@ -107,7 +107,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen text-white bg-slate-700 Parent">
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <div className="p-6 rounded-lg bg-sky-500 col-start-2">First Element</div>
@@ -116,6 +116,17 @@ export default function Home() {
             <div className="p-6 rounded-lg bg-red-500 col-span-2">Fourth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Fifth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Sixth Element</div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-6 gap-4">
+            <div className="p-6 rounded-lg bg-sky-500 col-start-2 col-span-4">First Element</div>
+            <div className="p-6 rounded-lg bg-sky-500 col-start-1 col-end-3">Second Element</div>
+            <div className="p-6 rounded-lg bg-sky-500 col-span-2 col-end-7">Third Element</div>
+            <div className="p-6 rounded-lg bg-red-500 col-start-1 col-end-7">Fourth Element</div>
           </div>
         </div>
       </div>
