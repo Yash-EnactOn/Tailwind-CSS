@@ -95,7 +95,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="parent">
+      {/* <div className="parent">
         <div>Header</div>
         <div className="flex items-center justify-evenly">
           <div>Sidebar</div>
@@ -105,9 +105,22 @@ export default function Home() {
           </div>
           <div>Another Sidebar</div>
         </div>
+      </div> */}
+
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container mx-auto">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="p-6 rounded-lg bg-sky-500 col-start-2">First Element</div>
+            <div className="p-6 rounded-lg bg-sky-500">Second Element</div>
+            <div className="p-6 rounded-lg bg-sky-500">Third Element</div>
+            <div className="p-6 rounded-lg bg-red-500 col-span-2">Fourth Element</div>
+            <div className="p-6 rounded-lg bg-sky-500">Fifth Element</div>
+            <div className="p-6 rounded-lg bg-sky-500">Sixth Element</div>
+          </div>
+        </div>
       </div>
 
-      
+
     </div>
   );
 }
