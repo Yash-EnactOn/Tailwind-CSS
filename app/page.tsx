@@ -131,7 +131,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen text-white bg-slate-700 Parent">
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid grid-flow-col grid-rows-6 gap-4">
             <div className="p-6 rounded-lg bg-sky-500 row-span-3">First Element</div>
@@ -146,6 +146,25 @@ export default function Home() {
             <div className="p-6 rounded-lg bg-sky-500 row-start-3">Tenth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Eleventh Element</div>
             <div className="p-6 rounded-lg bg-sky-500 row-end-4">Twelfth Element</div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container mx-auto">
+          <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">01</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+            <div className="p-6 rounded-lg bg-sky-500">04</div>
+            <div className="p-6 rounded-lg bg-sky-500">05</div>
+            <div className="p-6 rounded-lg bg-sky-500">06</div>
+            <div className="p-6 rounded-lg bg-sky-500">07</div>
+            <div className="p-6 rounded-lg bg-sky-500">08</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">09</div>
+            <div className="p-6 rounded-lg bg-sky-500">10</div>
+            <div className="p-6 rounded-lg bg-sky-500">11</div>
+            <div className="p-6 rounded-lg bg-sky-500">12</div>
           </div>
         </div>
       </div>
