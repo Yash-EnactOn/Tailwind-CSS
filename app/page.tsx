@@ -48,13 +48,22 @@ export default function Home() {
         <div className="w-16 h-16 bg-red-500">Sidebar</div>
         <div className="w-16 h-16 bg-green-500">Main content</div>
       </div> */}
-      
-      <div className="flex min-h-screen space-x-3">
+
+      {/* <div className="flex min-h-screen space-x-3">
         <div className="w-1/5 bg-red-500">Sidebar</div>
         <div className="w-4/5 bg-green-500">Main content</div>
-      </div>
+      </div> */}
 
-      <div></div>
+      <div className="parent">
+        <div>Header</div>
+        <div className="flex flex-row">
+          <div className="bg-red-500 grow">Main content</div>
+          <div className="flex flex-col">
+            <div className="bg-green-500">Sidebar</div>
+            <div className="bg-green-500">Menu</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
