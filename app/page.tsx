@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <div>
-      {/* <h1 className="text-3xl bg-green-600 text-white">Hello world!</h1>
+      {/* <h1 className="text-3xl text-white bg-green-600">Hello world!</h1>
         <h2 className="text-3xl text-yellow-600">Hello world</h2>
         <p className="border-4 border-red-600">Lorem ipsum dolor sit amet.</p>
-        <p className="text-vuejs-932 text-2xl">vuejs color</p>
+        <p className="text-2xl text-vuejs-932">vuejs color</p>
         <p className="text-xs sm:text-base md:text-lg lg:text-3xl">
           Tailwind CSS
         </p>
@@ -12,11 +12,11 @@ export default function Home() {
           <p className="mb-6">Tailwind CSS 1</p>
           <p className="bg-[#bada55]">Tailwind CSS 2</p>
         </div>
-        <div className="mt-16 py-4">
+        <div className="py-4 mt-16">
           <h1 className="text-3xl ">Title 1</h1>
           <h2 className="text-2xl">Title 2</h2>
           <h3 className="text-xl">Title 3</h3>
-          <p className="text-base underline decoration-red-500 decoration-wavy decoration-1 underline-offset-4 leading-loose capitalize">a regular paragraph</p>
+          <p className="text-base leading-loose underline capitalize decoration-red-500 decoration-wavy decoration-1 underline-offset-4">a regular paragraph</p>
           <p className="text-sm uppercase">A Description paragraph</p>
           <p className="text-xs italic note">A little note</p>
         </div> */}
@@ -38,7 +38,7 @@ export default function Home() {
         </div> */}
 
       {/* <div>
-        <div className="m-4 p-4 font-bold text-white bg-red-500">
+        <div className="p-4 m-4 font-bold text-white bg-red-500">
           Hello world!
         </div>
         <div className="-mt-6">Hello</div>
@@ -85,7 +85,7 @@ export default function Home() {
       {/* <div className="parent">
         <div>Header</div>
         <div className="flex flex-col md:flex-row">
-           <div className="flex w-full flex-wrap">
+           <div className="flex flex-wrap w-full">
              <div className="w-32 grow">01</div>
              <div className="w-32 grow">02</div>
              <div className="w-32 grow">03</div>
@@ -110,10 +110,10 @@ export default function Home() {
       {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            <div className="p-6 rounded-lg bg-sky-500 col-start-2">First Element</div>
+            <div className="col-start-2 p-6 rounded-lg bg-sky-500">First Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Second Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Third Element</div>
-            <div className="p-6 rounded-lg bg-red-500 col-span-2">Fourth Element</div>
+            <div className="col-span-2 p-6 bg-red-500 rounded-lg">Fourth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Fifth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Sixth Element</div>
           </div>
@@ -123,10 +123,10 @@ export default function Home() {
       {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid grid-cols-6 gap-4">
-            <div className="p-6 rounded-lg bg-sky-500 col-start-2 col-span-4">First Element</div>
-            <div className="p-6 rounded-lg bg-sky-500 col-start-1 col-end-3">Second Element</div>
-            <div className="p-6 rounded-lg bg-sky-500 col-span-2 col-end-7">Third Element</div>
-            <div className="p-6 rounded-lg bg-red-500 col-start-1 col-end-7">Fourth Element</div>
+            <div className="col-span-4 col-start-2 p-6 rounded-lg bg-sky-500">First Element</div>
+            <div className="col-start-1 col-end-3 p-6 rounded-lg bg-sky-500">Second Element</div>
+            <div className="col-span-2 col-end-7 p-6 rounded-lg bg-sky-500">Third Element</div>
+            <div className="col-start-1 col-end-7 p-6 bg-red-500 rounded-lg">Fourth Element</div>
           </div>
         </div>
       </div> */}
@@ -134,18 +134,18 @@ export default function Home() {
       {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid grid-flow-col grid-rows-6 gap-4">
-            <div className="p-6 rounded-lg bg-sky-500 row-span-3">First Element</div>
+            <div className="row-span-3 p-6 rounded-lg bg-sky-500">First Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Second Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Third Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Fourth Element</div>
-            <div className="p-6 rounded-lg bg-sky-500 row-span-2">Fifth Element</div>
+            <div className="row-span-2 p-6 rounded-lg bg-sky-500">Fifth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Sixth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Seventh Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Eighth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Ninth Element</div>
-            <div className="p-6 rounded-lg bg-sky-500 row-start-3">Tenth Element</div>
+            <div className="row-start-3 p-6 rounded-lg bg-sky-500">Tenth Element</div>
             <div className="p-6 rounded-lg bg-sky-500">Eleventh Element</div>
-            <div className="p-6 rounded-lg bg-sky-500 row-end-4">Twelfth Element</div>
+            <div className="row-end-4 p-6 rounded-lg bg-sky-500">Twelfth Element</div>
           </div>
         </div>
       </div> */}
@@ -175,16 +175,80 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen text-white bg-slate-700 Parent">
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container px-2 columns-lg">
           <img src="https://images.pexels.com/photos/29985415/pexels-photo-29985415/free-photo-of-silhouetted-woman-walking-in-darkened-urban-tunnel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" />
           <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
           <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
-          <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
+          <p className="hidden p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
+        </div>
+      </div> */}
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container px-2">
+          <img
+          className="float-left w-64"
+            src="https://images.pexels.com/photos/29985415/pexels-photo-29985415/free-photo-of-silhouetted-woman-walking-in-darkened-urban-tunnel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="img"
+          />
+          <img
+          className="float-right w-32"
+            src="https://images.pexels.com/photos/29985415/pexels-photo-29985415/free-photo-of-silhouetted-woman-walking-in-darkened-urban-tunnel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="img"
+          />
+          <p className="clear-right p-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+            dolorum exercitationem. Doloremque delectus ipsa eius voluptates
+            harum excepturi nobis corporis id fugit, eaque dignissimos
+            explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore
+            soluta quam.
+          </p>
+          <p className="p-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+            dolorum exercitationem. Doloremque delectus ipsa eius voluptates
+            harum excepturi nobis corporis id fugit, eaque dignissimos
+            explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore
+            soluta quam.
+          </p>
+          <p className="p-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+            dolorum exercitationem. Doloremque delectus ipsa eius voluptates
+            harum excepturi nobis corporis id fugit, eaque dignissimos
+            explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore
+            soluta quam.
+          </p>
+        </div>
+      </div> */}
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container px-2">
+          <div className="relative w-32 h-32 p-8 bg-red-500 rounded-lg">
+            <div className="absolute top-0 left-0 w-24 h-24 p-8 bg-green-500 rounded-lg"></div>
+            <div className="absolute w-24 h-24 p-8 bg-green-500 rounded-lg -top-2 -left-2"></div>
+            <div className="absolute w-24 h-24 p-8 bg-green-500 rounded-lg inset-2"></div>
+          </div>
+        </div>
+      </div> */}
+
+      {/* <div className="text-white bg-slate-700 Parent">
+        <div className="container p-4">
+          <div className="grid grid-cols-3 gap-4">
+            <div className="bg-green-500">01</div>
+            <div className="invisible bg-green-500">02</div>
+            <div className="bg-green-500">03</div>
+          </div>
+        </div>
+      </div> */}
+      
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container flex">
+          <div className="z-40 p-3 -m-2 bg-red-500 border border-white rounded-full">01</div>
+          <div className="z-30 p-3 -m-2 bg-red-500 border border-white rounded-full">02</div>
+          <div className="z-20 p-3 -m-2 bg-red-500 border border-white rounded-full">03</div>
+          <div className="z-10 p-3 -m-2 bg-red-500 border border-white rounded-full">04</div>
+          <div className="z-0 p-3 -m-2 bg-red-500 border border-white rounded-full">05</div>
         </div>
       </div>
-
-
     </div>
   );
 }

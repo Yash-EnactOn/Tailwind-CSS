@@ -7,12 +7,12 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-    },
+    // screens: {
+    //   sm: "480px",
+    //   md: "768px",
+    //   lg: "976px",
+    //   xl: "1440px",
+    // },
     container:{
       center: true,
     },
@@ -32,17 +32,17 @@ export default {
     //   '13': '512px',
     // },
     extend: {
-      fontSize: {
-        xs: "12px",
-        sm: "15px",
-        base: "18px",
-        lg: "20px",
-      },
+      // fontSize: {
+      //   xs: "12px",
+      //   sm: "15px",
+      //   base: "18px",
+      //   lg: "20px",
+      // },
       colors: {
-        vuejs: {
-          100: "#49e659",
-          932: "#41b883",
-        },
+        // vuejs: {
+        //   100: "#49e659",
+        //   932: "#41b883",
+        // },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
