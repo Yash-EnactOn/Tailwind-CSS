@@ -169,13 +169,22 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen text-white bg-slate-700 Parent">
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container px-2 bg-red-500">
           <h1 className="text-3xl">Hello</h1>
         </div>
+      </div> */}
+
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container px-2 columns-lg">
+          <img src="https://images.pexels.com/photos/29985415/pexels-photo-29985415/free-photo-of-silhouetted-woman-walking-in-darkened-urban-tunnel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" />
+          <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
+          <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
+          <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorum exercitationem. Doloremque delectus ipsa eius voluptates harum excepturi nobis corporis id fugit, eaque dignissimos explicabo! Obcaecati repudiandae porro laborum eos accusamus dolore soluta quam.</p>
+        </div>
       </div>
 
-      
+
     </div>
   );
 }
