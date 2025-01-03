@@ -13,6 +13,9 @@ export default {
       lg: "976px",
       xl: "1440px",
     },
+    container:{
+      center: true,
+    },
     // spacing: {
     //   '1': '8px',
     //   '2': '12px',

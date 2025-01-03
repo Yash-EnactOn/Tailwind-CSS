@@ -150,7 +150,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen text-white bg-slate-700 Parent">
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container mx-auto">
           <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
             <div className="col-span-2 p-6 rounded-lg bg-sky-500">01</div>
@@ -166,6 +166,12 @@ export default function Home() {
             <div className="p-6 rounded-lg bg-sky-500">11</div>
             <div className="p-6 rounded-lg bg-sky-500">12</div>
           </div>
+        </div>
+      </div> */}
+
+      <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="container px-2 bg-red-500">
+          <h1 className="text-3xl">Hello</h1>
         </div>
       </div>
 
