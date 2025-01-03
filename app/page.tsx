@@ -73,7 +73,7 @@ export default function Home() {
           <div className="basis-1/4 bg-slate-400">Another Sidebar</div>
         </div>
       </div> */}
-      
+
       {/* <div className="parent">
         <div>Header</div>
         <div className="flex flex-col md:flex-row">
@@ -81,8 +81,8 @@ export default function Home() {
           <div className="w-full bg-slate-500">Main content</div>
         </div>
       </div> */}
-      
-      <div className="parent">
+
+      {/* <div className="parent">
         <div>Header</div>
         <div className="flex flex-col md:flex-row">
            <div className="flex w-full flex-wrap">
@@ -93,7 +93,21 @@ export default function Home() {
              <div className="w-32 grow">05</div>
            </div>
         </div>
+      </div> */}
+
+      <div className="parent">
+        <div>Header</div>
+        <div className="flex items-center justify-evenly">
+          <div>Sidebar</div>
+          <div>
+            <h1 className="text-2xl font-bold">Main content</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eos voluptates ad vitae enim repellat nostrum, laudantium perferendis!</p>
+          </div>
+          <div>Another Sidebar</div>
+        </div>
       </div>
+
+      
     </div>
   );
 }
