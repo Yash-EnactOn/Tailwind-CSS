@@ -239,8 +239,8 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      
-      <div className="h-screen text-white bg-slate-700 Parent">
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
         <div className="container flex">
           <div className="z-40 p-3 -m-2 bg-red-500 border border-white rounded-full">01</div>
           <div className="z-30 p-3 -m-2 bg-red-500 border border-white rounded-full">02</div>
@@ -248,7 +248,26 @@ export default function Home() {
           <div className="z-10 p-3 -m-2 bg-red-500 border border-white rounded-full">04</div>
           <div className="z-0 p-3 -m-2 bg-red-500 border border-white rounded-full">05</div>
         </div>
-      </div>
+      </div> */}
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
+        <header className="w-full py-4 border-t-8 border-b border-l-8">
+          Header 👋
+        </header>
+      </div> */}
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
+        <input type="text" className="m-5 text-2xl text-black border-2 rounded-md outline-none border-rose-500 ring-4"/>
+      </div> */}
+
+      {/* <div className="h-screen text-white bg-slate-700 Parent">
+        <div className="divide-y divide-red-600">
+          <div>01</div>
+          <div>02</div>
+          <div>03</div>
+          <div>04</div>
+        </div>
+      </div> */}
     </div>
   );
 }
