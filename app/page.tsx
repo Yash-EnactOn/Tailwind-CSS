@@ -294,16 +294,51 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="h-screen p-4 Parent">
+      {/* <div className="h-screen p-4 Parent">
         <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-md shadow-cyan-500">
           <h1 className="text-2xl">Hello 👋</h1>
           <p className="mb-4">This is my div</p>
           <button className="px-3 py-2 m-2 text-white transition duration-1000 delay-1000 rounded-lg shadow-md cursor-pointer bg-cyan-500 shadow-cyan-500/50 hover:-translate-y-1">
             Say Hello 1
           </button>
-          <button className="px-3 py-2 m-2 text-white transition hover:scale-110 ease-in-out duration-300 rounded-lg shadow-md cursor-pointer bg-cyan-500 shadow-cyan-500/50">
+          <button className="px-3 py-2 m-2 text-white transition duration-300 ease-in-out rounded-lg shadow-md cursor-pointer hover:scale-110 bg-cyan-500 shadow-cyan-500/50">
             Say Hello 2
           </button>
+        </div>
+      </div> */}
+
+      <div>
+        <h1 className="mb-2 text-3xl font-bold">This is title</h1>
+        <h2 className="mb-1 text-xl font-semibold">this is subtitle</h2>
+        <p className="text-base">this is paragraph</p>
+        <a href="https://google.com">this is link</a>
+        <div className="m-2">
+          <button className="btn btn-primary">Primary Button</button>
+        </div>
+        <div className="m-2">
+          <button className="btn btn-secondary">Secondary Button</button>
+        </div>
+        <div className="m-2">
+          <button disabled className="btn btn-primary">Disabled Button</button>
+        </div>
+        <div>
+          <input type="text" defaultValue="" placeholder="E-mail"/>
+        </div>
+        <div>
+          <input disabled type="text" defaultValue="" placeholder="E-mail"/>
+        </div>
+        <div>
+          <input type="date"/>
+        </div>
+        <div>
+          <input type="checkbox" id="checkbox" defaultChecked={false} />
+          <label htmlFor="checkbox">Checkbox</label>
+        </div>
+        <div>
+          <select>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+          </select>
         </div>
       </div>
     </div>

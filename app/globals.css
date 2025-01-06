@@ -1,12 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IE+Guides&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IE+Guides&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    html {
-        /* @apply bg-slate-600 text-white; */
-        font-family: 'Playwrite AU SA', sans-serif;
-    }
+  html {
+    /* @apply text-white bg-slate-600; */
+    font-family: "Playwrite AU SA", sans-serif;
+  }
+
+  h1 {
+    @apply text-red-900;
+  }
+
+  a {
+    @apply text-blue-500 underline transition hover:text-purple-500 decoration-wavy underline-offset-4;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg hover:transition hover:duration-300 hover:opacity-80 disabled:bg-slate-400/30 hover:disabled:opacity-100;
+  }
+
+  .btn-primary {
+    @apply text-white bg-blue-500;
+  }
+
+  .btn-secondary {
+    @apply text-white bg-slate-800;
+  }
+
+  input[type="text"] {
+    @apply p-1 m-2 border rounded-sm outline-none border-slate-300 disabled:bg-gray-100 placeholder:italic;
+  }
+
+  input[type="date"] {
+    @apply p-1 m-2 border rounded outline-none border-slate-300 disabled:bg-gray-100;
+  }
 }
