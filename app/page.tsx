@@ -284,7 +284,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1735437643865-18e22575a630?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8"
             alt="street"
-            className="w-64 mb-4 blur-sm hover:blur-none rounded-lg saturate-150"
+            className="w-64 mb-4 rounded-lg blur-sm hover:blur-none saturate-150"
           />
           <h1 className="text-2xl">Hello 👋</h1>
           <p className="mb-4">This is my div</p>
@@ -294,7 +294,18 @@ export default function Home() {
         </div>
       </div> */}
 
-
+      <div className="h-screen p-4 Parent">
+        <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-md shadow-cyan-500">
+          <h1 className="text-2xl">Hello 👋</h1>
+          <p className="mb-4">This is my div</p>
+          <button className="px-3 py-2 m-2 text-white transition duration-1000 delay-1000 rounded-lg shadow-md cursor-pointer bg-cyan-500 shadow-cyan-500/50 hover:-translate-y-1">
+            Say Hello 1
+          </button>
+          <button className="px-3 py-2 m-2 text-white transition hover:scale-110 ease-in-out duration-300 rounded-lg shadow-md cursor-pointer bg-cyan-500 shadow-cyan-500/50">
+            Say Hello 2
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
