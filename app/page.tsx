@@ -1,4 +1,16 @@
+"use client";
+import { useState } from "react";
+import { ArrowDown } from "./arrowDown";
+
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectValue, setSelectValue] = useState("Select an option");
+
+  const updateValue = (value: string) => {
+    setSelectValue(value);
+    setIsOpen(false);
+  };
+
   return (
     <div>
       {/* <h1 className="text-3xl text-white bg-green-600">Hello world!</h1>
@@ -319,26 +331,60 @@ export default function Home() {
           <button className="btn btn-secondary">Secondary Button</button>
         </div>
         <div className="m-2">
-          <button disabled className="btn btn-primary">Disabled Button</button>
+          <button disabled className="btn btn-primary">
+            Disabled Button
+          </button>
         </div>
         <div>
-          <input type="text" defaultValue="" placeholder="E-mail"/>
+          <input type="text" defaultValue="" placeholder="E-mail" />
         </div>
         <div>
-          <input disabled type="text" defaultValue="" placeholder="E-mail"/>
+          <input disabled type="text" defaultValue="" placeholder="E-mail" />
         </div>
         <div>
-          <input type="date"/>
+          <input type="date" />
         </div>
-        <div>
+        <div className="flex">
           <input type="checkbox" id="checkbox" defaultChecked={false} />
-          <label htmlFor="checkbox">Checkbox</label>
+          <label htmlFor="checkbox">
+            Checkbox Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor consectetur maxime earum? Eaque reiciendis, eveniet quisquam
+            tempora temporibus voluptates beatae maxime nisi saepe ad ipsum
+            pariatur!
+          </label>
         </div>
         <div>
           <select>
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
           </select>
+        </div>
+
+        <div className="Select">
+          <div
+            className="child flex items-center justify-between"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <span>{selectValue}</span>
+            <div className={isOpen ? "rotate-180 transition" : "rotate-0 transition"}>
+              <ArrowDown />
+            </div>
+          </div>
+          {isOpen && (
+            <div>
+              <ul className="flex flex-col divide-y border-t">
+                <li className="child" onClick={() => updateValue("Option 1")}>
+                  Option 1
+                </li>
+                <li className="child" onClick={() => updateValue("Option 2")}>
+                  Option 2
+                </li>
+                <li className="child" onClick={() => updateValue("Option 3")}>
+                  Option 3
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
